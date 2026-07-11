@@ -1,0 +1,3842 @@
+[
+  {
+    "id": "science",
+    "title": "Science",
+    "description": "Understand the universe.",
+    "accentColor": "#2EC4B6",
+    "iconName": "Atom",
+    "pathways": [
+      {
+        "id": "physics",
+        "title": "Physics Fundamentals",
+        "description": "The laws of nature.",
+        "orbs": [
+          {
+            "id": "physics-1",
+            "title": "Classical mechanics",
+            "preview": "Description of large objects' physics",
+            "reading": "In physics, classical mechanics is a theory that describes the effect of forces on the motion of macroscopic objects and bulk matter, without considering quantum effects, and often without incorporating relativistic effects either.",
+            "keyTerms": [
+              {
+                "term": "Classical mechanics",
+                "definition": "Description of large objects' physics"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Classical mechanics.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Classical mechanics?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Classical mechanics is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "physics-2",
+            "title": "Thermodynamics",
+            "preview": "Physics of heat, work, and temperature",
+            "reading": "Thermodynamics is a branch of physics that deals with heat, work, and temperature, and their relation to energy, entropy, and the physical properties of matter and radiation.\n\nThe behavior of these quantities is governed by the four laws of thermodynamics, which convey a quantitative description using measurable macroscopic physical quantities but may be explained in terms of microscopic constituents by statistical mechanics.\n\nThermodynamics applies to various topics in science and engineering, especially physical chemistry, biochemistry, chemical engineering, and mechanical engineering, as well as other complex fields such as meteorology.",
+            "keyTerms": [
+              {
+                "term": "Thermodynamics",
+                "definition": "Physics of heat, work, and temperature"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Thermodynamics.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Thermodynamics?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Thermodynamics is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "physics-3",
+            "title": "Electromagnetism",
+            "preview": "Fundamental interaction between charged particles",
+            "reading": "In physics, electromagnetism is an interaction that occurs between particles with electric charge via electromagnetic fields.\n\nThe electromagnetic force is one of the four fundamental forces of nature.\n\nIt is the dominant force in the interactions of atoms and molecules.\n\nElectromagnetism describes and relates the three distinct but closely intertwined phenomena of electricity, magnetism, and optics.\n\nIn, electromagnetism these phenomena are described by the 3 sub-disciplines: electrostatics, magnetostatics, and electrodynamics.",
+            "keyTerms": [
+              {
+                "term": "Electromagnetism",
+                "definition": "Fundamental interaction between charged particles"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Electromagnetism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Electromagnetism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Electromagnetism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "physics-4",
+            "title": "Quantum mechanics",
+            "preview": "Description of physical properties at the atomic and subatomic scale",
+            "reading": "Quantum mechanics, also known as quantum physics, is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms.\n\nIts concepts and methods have been applied across many disciplines, including quantum chemistry, quantum biology, quantum field theory, quantum technology, and quantum information science.",
+            "keyTerms": [
+              {
+                "term": "Quantum mechanics",
+                "definition": "Description of physical properties at the atomic and subatomic scale"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Quantum mechanics.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Quantum mechanics?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Quantum mechanics is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "physics-5",
+            "title": "Theory of relativity",
+            "preview": "Two interrelated physics theories by Albert Einstein",
+            "reading": "The theory of relativity comprises two physics theories by Albert Einstein: special relativity and general relativity, proposed and published in 1905 and 1915, respectively.\n\nSpecial relativity applies to all physical phenomena in the absence of gravity.\n\nGeneral relativity explains the law of gravitation and its relation to the forces of nature.\n\nIt applies to the cosmological and astrophysical realm, including astronomy.",
+            "keyTerms": [
+              {
+                "term": "Theory of relativity",
+                "definition": "Two interrelated physics theories by Albert Einstein"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Theory of relativity.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Theory of relativity?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Theory of relativity is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "biology",
+        "title": "Cellular Biology",
+        "description": "The building blocks of life.",
+        "orbs": [
+          {
+            "id": "biology-1",
+            "title": "Cell (biology)",
+            "preview": "Basic unit of life forms",
+            "reading": "The cell is the basic structural and functional unit of all forms of life or organisms.\n\nThe term comes from the Latin word cellula meaning 'small room'.\n\nA biological cell basically consists of a semipermeable cell membrane enclosing cytoplasm that contains genetic material.\n\nMost cells are only visible under a microscope.\n\nExcept for highly-differentiated cell types most cells are capable of replication, and protein synthesis.\n\nSome types of cell are motile.\n\nCells emerged on Earth about four billion years ago.",
+            "keyTerms": [
+              {
+                "term": "Cell (biology)",
+                "definition": "Basic unit of life forms"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Cell (biology).",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Cell (biology)?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Cell (biology) is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biology-2",
+            "title": "DNA",
+            "preview": "Molecule that carries genetic information",
+            "reading": "Deoxyribonucleic acid is a polymer composed of two polynucleotide chains that coil around each other to form a double helix.\n\nThe polymer carries genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses.\n\nDNA and ribonucleic acid (RNA) are nucleic acids.\n\nAlongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life.",
+            "keyTerms": [
+              {
+                "term": "DNA",
+                "definition": "Molecule that carries genetic information"
+              }
+            ],
+            "summary": "You learned about the fundamentals of DNA.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to DNA?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, DNA is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biology-3",
+            "title": "Protein",
+            "preview": "Biomolecule consisting of chains of amino acid residues",
+            "reading": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues.\n\nProteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.\n\nProteins differ from one another primarily in their sequence of amino acids, which is dictated by the nucleotide sequence of their genes, and which usually results in protein folding into a specific 3D structure that determines its activity.",
+            "keyTerms": [
+              {
+                "term": "Protein",
+                "definition": "Biomolecule consisting of chains of amino acid residues"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Protein.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Protein?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Protein is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biology-4",
+            "title": "Mitochondrion",
+            "preview": "Organelle in eukaryotic cells responsible for respiration",
+            "reading": "A mitochondrion is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi.\n\nMitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy.\n\nThey were discovered by Albert von Kölliker in 1857 in the voluntary muscles of insects.\n\nThe term mitochondrion, meaning \"a thread-like granule\", was coined by Carl Benda in 1898.\n\nThe mitochondrion is popularly nicknamed the \"powerhouse of the cell\", a phrase popularized by Philip Siekevitz in a 1957 Scientific American article of the same name.",
+            "keyTerms": [
+              {
+                "term": "Mitochondrion",
+                "definition": "Organelle in eukaryotic cells responsible for respiration"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Mitochondrion.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Mitochondrion?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Mitochondrion is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biology-5",
+            "title": "Gene",
+            "preview": "Sequence of DNA that determines traits in an organism",
+            "reading": "In biology, the word gene has two meanings.\n\nThe Mendelian gene is a basic unit of heredity.\n\nThe molecular gene is a sequence of nucleotides in DNA that is transcribed to produce RNA.\n\nThere are two types of molecular genes: protein-coding genes and non-coding genes.\n\nDuring gene expression, DNA is first copied into RNA.\n\nRNA can be directly functional or be the intermediate template for the synthesis of a protein.",
+            "keyTerms": [
+              {
+                "term": "Gene",
+                "definition": "Sequence of DNA that determines traits in an organism"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Gene.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Gene?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Gene is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "astronomy",
+        "title": "Cosmic Wonders",
+        "description": "Stars, galaxies, and beyond.",
+        "orbs": [
+          {
+            "id": "astronomy-1",
+            "title": "Star",
+            "preview": "Large self-illuminated object in space",
+            "reading": "A star is a luminous spheroid of plasma held together by self-gravity.\n\nThe nearest star to Earth is the Sun.\n\nMany other stars are visible to the naked eye at night; their immense distances from Earth make them appear as fixed points of light.\n\nThe most prominent stars have been categorised into constellations and asterisms, and many of the brightest stars have proper names.\n\nAstronomers have assembled star catalogues that identify the known stars and provide standardized stellar designations.\n\nThe observable universe contains an estimated 1022 to 1024 stars.\n\nOnly about 4,000 of these stars are visible to the naked eye—all within the Milky Way galaxy.",
+            "keyTerms": [
+              {
+                "term": "Star",
+                "definition": "Large self-illuminated object in space"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Star.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Star?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Star is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "astronomy-2",
+            "title": "Black hole",
+            "preview": "Compact astronomical body",
+            "reading": "A black hole is an astronomical body so compact that its gravity prevents anything, including light, from escaping.\n\nAlbert Einstein's theory of general relativity, which describes gravitation as the curvature of spacetime, predicts that any sufficiently compact mass will form a black hole.\n\nThe boundary of no escape is called the event horizon.\n\nIn general relativity, crossing a black hole's event horizon traps an object inside but produces no locally detectable change.\n\nGeneral relativity also predicts that every black hole should have a central singularity, where the curvature of spacetime is infinite.",
+            "keyTerms": [
+              {
+                "term": "Black hole",
+                "definition": "Compact astronomical body"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Black hole.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Black hole?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Black hole is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "astronomy-3",
+            "title": "Galaxy",
+            "preview": "System of stars and interstellar matter",
+            "reading": "A galaxy is a physical system of stars, stellar remnants, interstellar gas, dust, and dark matter bound together by gravity.\n\nThe word is derived from the Greek galaxias (γαλαξίας), meaning 'milky', a reference to the Milky Way galaxy that contains the Solar System.\n\nGalaxies, averaging an estimated 100 million stars, range in size from dwarfs with less than a thousand stars to the largest galaxies known—supergiants with one hundred trillion stars, each orbiting its galaxy's center of mass.\n\nMost of the mass in a typical galaxy is in the form of dark matter, with only a few percent of that mass visible in the form of stars and nebulae.\n\nSupermassive black holes are a common feature at the centers of galaxies.",
+            "keyTerms": [
+              {
+                "term": "Galaxy",
+                "definition": "System of stars and interstellar matter"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Galaxy.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Galaxy?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Galaxy is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "astronomy-4",
+            "title": "Exoplanet",
+            "preview": "A fascinating topic.",
+            "reading": "Exoplanet is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Exoplanet",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Exoplanet.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Exoplanet?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Exoplanet is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "astronomy-5",
+            "title": "Big Bang",
+            "preview": "A fascinating topic.",
+            "reading": "Big Bang is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Big Bang",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Big Bang.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Big Bang?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Big Bang is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "history",
+    "title": "History",
+    "description": "Learn from the past.",
+    "accentColor": "#FFC857",
+    "iconName": "Landmark",
+    "pathways": [
+      {
+        "id": "rome",
+        "title": "Ancient Rome",
+        "description": "The rise and fall of an empire.",
+        "orbs": [
+          {
+            "id": "rome-1",
+            "title": "Roman Republic",
+            "preview": "A fascinating topic.",
+            "reading": "Roman Republic is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Roman Republic",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Roman Republic.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Roman Republic?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Roman Republic is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "rome-2",
+            "title": "Julius Caesar",
+            "preview": "A fascinating topic.",
+            "reading": "Julius Caesar is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Julius Caesar",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Julius Caesar.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Julius Caesar?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Julius Caesar is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "rome-3",
+            "title": "Augustus",
+            "preview": "A fascinating topic.",
+            "reading": "Augustus is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Augustus",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Augustus.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Augustus?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Augustus is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "rome-4",
+            "title": "Colosseum",
+            "preview": "A fascinating topic.",
+            "reading": "Colosseum is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Colosseum",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Colosseum.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Colosseum?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Colosseum is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "rome-5",
+            "title": "Fall of the Western Roman Empire",
+            "preview": "A fascinating topic.",
+            "reading": "Fall of the Western Roman Empire is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Fall of the Western Roman Empire",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Fall of the Western Roman Empire.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Fall of the Western Roman Empire?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Fall of the Western Roman Empire is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "ww2",
+        "title": "World War II",
+        "description": "The global conflict.",
+        "orbs": [
+          {
+            "id": "ww2-1",
+            "title": "World War II",
+            "preview": "Global conflict (1939–1945)",
+            "reading": "World War II, or the Second World War, was a global conflict between two coalitions: the Allies and the Axis powers.\n\nNearly all of the world's countries participated.\n\nWorld War II was the deadliest conflict in history, causing the death of 60 to 75 million people.\n\nMillions died as a result of massacres, starvation, disease, and genocides, including the Holocaust.\n\nAfter the Allied victory, Germany, Austria, Japan, and Korea were occupied, and German and Japanese leaders were tried for war crimes.",
+            "keyTerms": [
+              {
+                "term": "World War II",
+                "definition": "Global conflict (1939–1945)"
+              }
+            ],
+            "summary": "You learned about the fundamentals of World War II.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to World War II?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, World War II is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ww2-2",
+            "title": "Winston Churchill",
+            "preview": "A fascinating topic.",
+            "reading": "Winston Churchill is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Winston Churchill",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Winston Churchill.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Winston Churchill?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Winston Churchill is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ww2-3",
+            "title": "Franklin D. Roosevelt",
+            "preview": "A fascinating topic.",
+            "reading": "Franklin D. Roosevelt is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Franklin D. Roosevelt",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Franklin D. Roosevelt.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Franklin D. Roosevelt?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Franklin D. Roosevelt is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ww2-4",
+            "title": "Battle of Stalingrad",
+            "preview": "A fascinating topic.",
+            "reading": "Battle of Stalingrad is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Battle of Stalingrad",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Battle of Stalingrad.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Battle of Stalingrad?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Battle of Stalingrad is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ww2-5",
+            "title": "Normandy landings",
+            "preview": "A fascinating topic.",
+            "reading": "Normandy landings is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Normandy landings",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Normandy landings.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Normandy landings?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Normandy landings is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "renaissance",
+        "title": "The Renaissance",
+        "description": "Rebirth of art and science.",
+        "orbs": [
+          {
+            "id": "renaissance-1",
+            "title": "Renaissance",
+            "preview": "European cultural period of the 14th to 17th centuries",
+            "reading": "The Renaissance was a European period of history and cultural movement taking place at the end of the Late Middle Ages and the beginning of the early modern era.\n\nIt is variously defined as covering the 15th and 16th centuries or, more broadly, as lasting from the 14th century to the 17th.\n\nIt was characterized by the European rediscovery and revival of the literary, philosophical, and artistic achievements of classical antiquity.\n\nAssociated with great change in art, architecture, politics, literature, exploration and technology, the Renaissance was first centered in the Republic of Florence, then spread to the rest of Italy and later throughout Europe.",
+            "keyTerms": [
+              {
+                "term": "Renaissance",
+                "definition": "European cultural period of the 14th to 17th centuries"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Renaissance.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Renaissance?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Renaissance is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "renaissance-2",
+            "title": "Leonardo da Vinci",
+            "preview": "Italian polymath (1452–1519)",
+            "reading": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.\n\nWhile his fame initially rested on his achievements as a painter, he has also become known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and palaeontology.\n\nLeonardo is widely regarded as a genius who epitomised the Renaissance humanist ideal, and his collective works contributed to the development of European art to an extent rivalled only by that of his younger contemporary Michelangelo.",
+            "keyTerms": [
+              {
+                "term": "Leonardo da Vinci",
+                "definition": "Italian polymath (1452–1519)"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Leonardo da Vinci.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Leonardo da Vinci?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Leonardo da Vinci is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "renaissance-3",
+            "title": "Michelangelo",
+            "preview": "Italian artist and architect (1475–1564)",
+            "reading": "Michelangelo di Lodovico Buonarroti Simoni, known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance.\n\nHe was born in the Republic of Florence but was mostly active in Rome from his 30s onwards.\n\nHis work was inspired by models from classical antiquity and had a lasting influence on Western art.\n\nMichelangelo's creative abilities and mastery in a range of artistic arenas define him as an archetypal Renaissance man, along with his rival and elder contemporary, Leonardo da Vinci.\n\nGiven the sheer volume of surviving correspondence, sketches, and reminiscences, Michelangelo is one of the best-documented artists of the 16th century.\n\nHe was lauded by contemporary biographers as the most accomplished artist of his era.",
+            "keyTerms": [
+              {
+                "term": "Michelangelo",
+                "definition": "Italian artist and architect (1475–1564)"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Michelangelo.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Michelangelo?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Michelangelo is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "renaissance-4",
+            "title": "Galileo Galilei",
+            "preview": "A fascinating topic.",
+            "reading": "Galileo Galilei is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Galileo Galilei",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Galileo Galilei.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Galileo Galilei?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Galileo Galilei is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "renaissance-5",
+            "title": "Printing press",
+            "preview": "A fascinating topic.",
+            "reading": "Printing press is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Printing press",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Printing press.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Printing press?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Printing press is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "psychology",
+    "title": "Psychology",
+    "description": "How the mind works.",
+    "accentColor": "#FF6B6B",
+    "iconName": "Brain",
+    "pathways": [
+      {
+        "id": "biases",
+        "title": "Cognitive Biases",
+        "description": "Why we make irrational choices.",
+        "orbs": [
+          {
+            "id": "biases-1",
+            "title": "Cognitive bias",
+            "preview": "Systematic pattern of deviation from norm or rationality in judgment",
+            "reading": "A cognitive bias is a systematic pattern of deviation from norm or rationality in judgment.\n\nIndividuals create their own \"subjective reality\" from their perception of the input.\n\nAn individual's construction of reality, not the objective input, may dictate their behavior in the world.\n\nThus, cognitive biases may sometimes lead to perceptual distortion, inaccurate judgment, illogical interpretation, and irrationality.",
+            "keyTerms": [
+              {
+                "term": "Cognitive bias",
+                "definition": "Systematic pattern of deviation from norm or rationality in judgment"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Cognitive bias.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Cognitive bias?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Cognitive bias is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biases-2",
+            "title": "Confirmation bias",
+            "preview": "A fascinating topic.",
+            "reading": "Confirmation bias is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Confirmation bias",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Confirmation bias.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Confirmation bias?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Confirmation bias is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biases-3",
+            "title": "Dunning–Kruger effect",
+            "preview": "A fascinating topic.",
+            "reading": "Dunning–Kruger effect is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Dunning–Kruger effect",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Dunning–Kruger effect.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Dunning–Kruger effect?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Dunning–Kruger effect is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biases-4",
+            "title": "Anchoring (cognitive bias)",
+            "preview": "A fascinating topic.",
+            "reading": "Anchoring (cognitive bias) is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Anchoring (cognitive bias)",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Anchoring (cognitive bias).",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Anchoring (cognitive bias)?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Anchoring (cognitive bias) is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "biases-5",
+            "title": "Availability heuristic",
+            "preview": "A fascinating topic.",
+            "reading": "Availability heuristic is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Availability heuristic",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Availability heuristic.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Availability heuristic?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Availability heuristic is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "emotions",
+        "title": "Understanding Emotions",
+        "description": "The feeling brain.",
+        "orbs": [
+          {
+            "id": "emotions-1",
+            "title": "Emotion",
+            "preview": "A fascinating topic.",
+            "reading": "Emotion is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Emotion",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Emotion.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Emotion?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Emotion is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "emotions-2",
+            "title": "Empathy",
+            "preview": "A fascinating topic.",
+            "reading": "Empathy is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Empathy",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Empathy.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Empathy?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Empathy is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "emotions-3",
+            "title": "Emotional intelligence",
+            "preview": "A fascinating topic.",
+            "reading": "Emotional intelligence is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Emotional intelligence",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Emotional intelligence.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Emotional intelligence?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Emotional intelligence is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "emotions-4",
+            "title": "Fear",
+            "preview": "A fascinating topic.",
+            "reading": "Fear is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Fear",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Fear.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Fear?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Fear is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "emotions-5",
+            "title": "Happiness",
+            "preview": "A fascinating topic.",
+            "reading": "Happiness is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Happiness",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Happiness.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Happiness?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Happiness is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "memory",
+        "title": "Memory",
+        "description": "How we remember and forget.",
+        "orbs": [
+          {
+            "id": "memory-1",
+            "title": "Memory",
+            "preview": "A fascinating topic.",
+            "reading": "Memory is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Memory",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Memory.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Memory?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Memory is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "memory-2",
+            "title": "Short-term memory",
+            "preview": "A fascinating topic.",
+            "reading": "Short-term memory is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Short-term memory",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Short-term memory.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Short-term memory?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Short-term memory is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "memory-3",
+            "title": "Long-term memory",
+            "preview": "A fascinating topic.",
+            "reading": "Long-term memory is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Long-term memory",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Long-term memory.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Long-term memory?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Long-term memory is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "memory-4",
+            "title": "Amnesia",
+            "preview": "Cognitive disorder where memory is disturbed or lost",
+            "reading": "Amnesia is a deficit in memory caused by brain damage or brain diseases, but it can also be temporarily caused by the use of various sedative and hypnotic drugs. The memory can be either wholly or partially lost due to the extent of damage that is caused.",
+            "keyTerms": [
+              {
+                "term": "Amnesia",
+                "definition": "Cognitive disorder where memory is disturbed or lost"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Amnesia.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Amnesia?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Amnesia is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "memory-5",
+            "title": "Hippocampus",
+            "preview": "A fascinating topic.",
+            "reading": "Hippocampus is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Hippocampus",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Hippocampus.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Hippocampus?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Hippocampus is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "philosophy",
+    "title": "Philosophy",
+    "description": "The big questions.",
+    "accentColor": "#A374FF",
+    "iconName": "BookOpen",
+    "pathways": [
+      {
+        "id": "stoicism",
+        "title": "Stoicism",
+        "description": "Mastering your reactions.",
+        "orbs": [
+          {
+            "id": "stoicism-1",
+            "title": "Stoicism",
+            "preview": "Ancient philosophy",
+            "reading": "Stoicism is a philosophical movement and practical guide to living, emphasizing daily self-discipline and moral improvement, which originated in the Hellenistic period of ancient Greece and proliferated well into the Roman Imperial period.\n\nThe ancient Stoics believed that the universe operated according to reason, or logos, providing a unified account of the world, constructed from ideals of rational discourse, monistic physics, and naturalistic ethics.\n\nThese ideals constitute virtue, which is necessary for the Stoic goal of 'living a well-reasoned life'.",
+            "keyTerms": [
+              {
+                "term": "Stoicism",
+                "definition": "Ancient philosophy"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Stoicism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Stoicism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Stoicism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "stoicism-2",
+            "title": "Marcus Aurelius",
+            "preview": "Stoic philosopher, Roman emperor from 161 to 180",
+            "reading": "Marcus Aurelius Antoninus was Roman emperor from 161 to 180 and a Stoic philosopher.\n\nHe was a member of the Nerva–Antonine dynasty, the last of the rulers later known as the Five Good Emperors and the last emperor of the Pax Romana, an age of relative peace, calm, and stability for the Roman Empire lasting from 27 BC to 180 AD.\n\nHe served as Roman consul in 140, 145, and 161.",
+            "keyTerms": [
+              {
+                "term": "Marcus Aurelius",
+                "definition": "Stoic philosopher, Roman emperor from 161 to 180"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Marcus Aurelius.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Marcus Aurelius?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Marcus Aurelius is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "stoicism-3",
+            "title": "Epictetus",
+            "preview": "Greek Stoic philosopher (c. 50 – c. 135)",
+            "reading": "Epictetus was a Greek Stoic philosopher. He was born into slavery at Hierapolis, Phrygia and lived in Rome until his banishment, after which he spent the rest of his life in Nicopolis in northwestern Greece.",
+            "keyTerms": [
+              {
+                "term": "Epictetus",
+                "definition": "Greek Stoic philosopher (c. 50 – c. 135)"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Epictetus.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Epictetus?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Epictetus is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "stoicism-4",
+            "title": "Seneca the Younger",
+            "preview": "A fascinating topic.",
+            "reading": "Seneca the Younger is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Seneca the Younger",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Seneca the Younger.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Seneca the Younger?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Seneca the Younger is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "stoicism-5",
+            "title": "Virtue",
+            "preview": "A fascinating topic.",
+            "reading": "Virtue is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Virtue",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Virtue.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Virtue?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Virtue is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "existentialism",
+        "title": "Existentialism",
+        "description": "Finding meaning.",
+        "orbs": [
+          {
+            "id": "existentialism-1",
+            "title": "Existentialism",
+            "preview": "A fascinating topic.",
+            "reading": "Existentialism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Existentialism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Existentialism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Existentialism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Existentialism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "existentialism-2",
+            "title": "Jean-Paul Sartre",
+            "preview": "A fascinating topic.",
+            "reading": "Jean-Paul Sartre is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Jean-Paul Sartre",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Jean-Paul Sartre.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Jean-Paul Sartre?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Jean-Paul Sartre is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "existentialism-3",
+            "title": "Friedrich Nietzsche",
+            "preview": "A fascinating topic.",
+            "reading": "Friedrich Nietzsche is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Friedrich Nietzsche",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Friedrich Nietzsche.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Friedrich Nietzsche?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Friedrich Nietzsche is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "existentialism-4",
+            "title": "Søren Kierkegaard",
+            "preview": "A fascinating topic.",
+            "reading": "Søren Kierkegaard is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Søren Kierkegaard",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Søren Kierkegaard.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Søren Kierkegaard?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Søren Kierkegaard is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "existentialism-5",
+            "title": "Absurdism",
+            "preview": "A fascinating topic.",
+            "reading": "Absurdism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Absurdism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Absurdism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Absurdism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Absurdism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "ethics",
+        "title": "Ethics",
+        "description": "Right and wrong.",
+        "orbs": [
+          {
+            "id": "ethics-1",
+            "title": "Ethics",
+            "preview": "A fascinating topic.",
+            "reading": "Ethics is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Ethics",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Ethics.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Ethics?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Ethics is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ethics-2",
+            "title": "Utilitarianism",
+            "preview": "Ethical theory based on maximizing well-being",
+            "reading": "Utilitarianism is a family of theories in normative ethics that prescribe actions that maximize happiness and well-being for the affected individuals.\n\nIn other words, utilitarian ideas encourage actions that lead to the greatest good for the greatest number.\n\nAlthough different varieties of utilitarianism admit different characterizations, the basic idea that underpins them all is, in some sense, to maximize utility, which is often defined in terms of well-being or related concepts.\n\nFor instance, Jeremy Bentham, the founder of utilitarianism, described utility as the capacity of actions or objects to produce benefits, such as pleasure, happiness, and good, or to prevent harm, such as pain and unhappiness, to those affected.",
+            "keyTerms": [
+              {
+                "term": "Utilitarianism",
+                "definition": "Ethical theory based on maximizing well-being"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Utilitarianism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Utilitarianism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Utilitarianism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ethics-3",
+            "title": "Deontology",
+            "preview": "A fascinating topic.",
+            "reading": "Deontology is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Deontology",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Deontology.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Deontology?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Deontology is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ethics-4",
+            "title": "Virtue ethics",
+            "preview": "A fascinating topic.",
+            "reading": "Virtue ethics is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Virtue ethics",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Virtue ethics.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Virtue ethics?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Virtue ethics is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ethics-5",
+            "title": "Moral relativism",
+            "preview": "A fascinating topic.",
+            "reading": "Moral relativism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Moral relativism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Moral relativism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Moral relativism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Moral relativism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "technology",
+    "title": "Technology",
+    "description": "The digital revolution.",
+    "accentColor": "#3B82F6",
+    "iconName": "Cpu",
+    "pathways": [
+      {
+        "id": "ai",
+        "title": "Artificial Intelligence",
+        "description": "Machines that think.",
+        "orbs": [
+          {
+            "id": "ai-1",
+            "title": "Artificial intelligence",
+            "preview": "Intelligence of machines",
+            "reading": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.\n\nIt is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.",
+            "keyTerms": [
+              {
+                "term": "Artificial intelligence",
+                "definition": "Intelligence of machines"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Artificial intelligence.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Artificial intelligence?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Artificial intelligence is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ai-2",
+            "title": "Machine learning",
+            "preview": "Subset of artificial intelligence",
+            "reading": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed.\n\nAdvances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+            "keyTerms": [
+              {
+                "term": "Machine learning",
+                "definition": "Subset of artificial intelligence"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Machine learning.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Machine learning?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Machine learning is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ai-3",
+            "title": "Neural network",
+            "preview": "A fascinating topic.",
+            "reading": "Neural network is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Neural network",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Neural network.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Neural network?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Neural network is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ai-4",
+            "title": "Natural language processing",
+            "preview": "A fascinating topic.",
+            "reading": "Natural language processing is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Natural language processing",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Natural language processing.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Natural language processing?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Natural language processing is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "ai-5",
+            "title": "Turing test",
+            "preview": "A fascinating topic.",
+            "reading": "Turing test is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Turing test",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Turing test.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Turing test?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Turing test is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "internet",
+        "title": "The Internet",
+        "description": "Global connectivity.",
+        "orbs": [
+          {
+            "id": "internet-1",
+            "title": "Internet",
+            "preview": "Global system of connected computer networks",
+            "reading": "The Internet is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices.\n\nIt is a network of networks that comprises private, public, academic, business, and government networks of local to global scope, linked by electronic, wireless, and optical networking technologies.\n\nThe Internet carries a vast range of information services and resources, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, discussion groups, internet telephony, streaming media and file sharing.",
+            "keyTerms": [
+              {
+                "term": "Internet",
+                "definition": "Global system of connected computer networks"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Internet.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Internet?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Internet is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "internet-2",
+            "title": "World Wide Web",
+            "preview": "Linked hypertext system on the Internet",
+            "reading": "The World Wide Web is a global interconnected information system that enables content sharing over the Internet. It facilitates access to documents and other web resources according to specific rules of the Hypertext Transfer Protocol (HTTP).",
+            "keyTerms": [
+              {
+                "term": "World Wide Web",
+                "definition": "Linked hypertext system on the Internet"
+              }
+            ],
+            "summary": "You learned about the fundamentals of World Wide Web.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to World Wide Web?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, World Wide Web is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "internet-3",
+            "title": "Domain Name System",
+            "preview": "A fascinating topic.",
+            "reading": "Domain Name System is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Domain Name System",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Domain Name System.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Domain Name System?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Domain Name System is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "internet-4",
+            "title": "Transmission Control Protocol",
+            "preview": "A fascinating topic.",
+            "reading": "Transmission Control Protocol is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Transmission Control Protocol",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Transmission Control Protocol.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Transmission Control Protocol?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Transmission Control Protocol is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "internet-5",
+            "title": "Hypertext Transfer Protocol",
+            "preview": "A fascinating topic.",
+            "reading": "Hypertext Transfer Protocol is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Hypertext Transfer Protocol",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Hypertext Transfer Protocol.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Hypertext Transfer Protocol?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Hypertext Transfer Protocol is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "hardware",
+        "title": "Computer Hardware",
+        "description": "Silicon and circuits.",
+        "orbs": [
+          {
+            "id": "hardware-1",
+            "title": "Central processing unit",
+            "preview": "A fascinating topic.",
+            "reading": "Central processing unit is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Central processing unit",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Central processing unit.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Central processing unit?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Central processing unit is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "hardware-2",
+            "title": "Random-access memory",
+            "preview": "A fascinating topic.",
+            "reading": "Random-access memory is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Random-access memory",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Random-access memory.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Random-access memory?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Random-access memory is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "hardware-3",
+            "title": "Solid-state drive",
+            "preview": "A fascinating topic.",
+            "reading": "Solid-state drive is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Solid-state drive",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Solid-state drive.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Solid-state drive?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Solid-state drive is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "hardware-4",
+            "title": "Motherboard",
+            "preview": "A fascinating topic.",
+            "reading": "Motherboard is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Motherboard",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Motherboard.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Motherboard?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Motherboard is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "hardware-5",
+            "title": "Graphics processing unit",
+            "preview": "A fascinating topic.",
+            "reading": "Graphics processing unit is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Graphics processing unit",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Graphics processing unit.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Graphics processing unit?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Graphics processing unit is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture",
+    "title": "Culture",
+    "description": "Art, music, and society.",
+    "accentColor": "#F472B6",
+    "iconName": "Globe",
+    "pathways": [
+      {
+        "id": "art",
+        "title": "Art Movements",
+        "description": "Visual expressions.",
+        "orbs": [
+          {
+            "id": "art-1",
+            "title": "Impressionism",
+            "preview": "A fascinating topic.",
+            "reading": "Impressionism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Impressionism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Impressionism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Impressionism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Impressionism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "art-2",
+            "title": "Surrealism",
+            "preview": "A fascinating topic.",
+            "reading": "Surrealism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Surrealism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Surrealism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Surrealism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Surrealism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "art-3",
+            "title": "Cubism",
+            "preview": "A fascinating topic.",
+            "reading": "Cubism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Cubism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Cubism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Cubism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Cubism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "art-4",
+            "title": "Abstract expressionism",
+            "preview": "A fascinating topic.",
+            "reading": "Abstract expressionism is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Abstract expressionism",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Abstract expressionism.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Abstract expressionism?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Abstract expressionism is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "art-5",
+            "title": "Pop art",
+            "preview": "A fascinating topic.",
+            "reading": "Pop art is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Pop art",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Pop art.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Pop art?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Pop art is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "music",
+        "title": "Music History",
+        "description": "The evolution of sound.",
+        "orbs": [
+          {
+            "id": "music-1",
+            "title": "Classical music",
+            "preview": "A fascinating topic.",
+            "reading": "Classical music is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Classical music",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Classical music.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Classical music?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Classical music is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "music-2",
+            "title": "Jazz",
+            "preview": "A fascinating topic.",
+            "reading": "Jazz is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Jazz",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Jazz.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Jazz?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Jazz is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "music-3",
+            "title": "Rock music",
+            "preview": "A fascinating topic.",
+            "reading": "Rock music is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Rock music",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Rock music.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Rock music?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Rock music is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "music-4",
+            "title": "Hip hop",
+            "preview": "A fascinating topic.",
+            "reading": "Hip hop is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Hip hop",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Hip hop.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Hip hop?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Hip hop is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "music-5",
+            "title": "Electronic dance music",
+            "preview": "A fascinating topic.",
+            "reading": "Electronic dance music is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Electronic dance music",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Electronic dance music.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Electronic dance music?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Electronic dance music is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "literature",
+        "title": "Classic Literature",
+        "description": "Stories that endure.",
+        "orbs": [
+          {
+            "id": "literature-1",
+            "title": "William Shakespeare",
+            "preview": "A fascinating topic.",
+            "reading": "William Shakespeare is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "William Shakespeare",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of William Shakespeare.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to William Shakespeare?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, William Shakespeare is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "literature-2",
+            "title": "Jane Austen",
+            "preview": "A fascinating topic.",
+            "reading": "Jane Austen is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Jane Austen",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Jane Austen.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Jane Austen?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Jane Austen is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "literature-3",
+            "title": "Fyodor Dostoevsky",
+            "preview": "A fascinating topic.",
+            "reading": "Fyodor Dostoevsky is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Fyodor Dostoevsky",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Fyodor Dostoevsky.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Fyodor Dostoevsky?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Fyodor Dostoevsky is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "literature-4",
+            "title": "Gabriel García Márquez",
+            "preview": "A fascinating topic.",
+            "reading": "Gabriel García Márquez is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Gabriel García Márquez",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Gabriel García Márquez.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Gabriel García Márquez?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Gabriel García Márquez is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "literature-5",
+            "title": "Toni Morrison",
+            "preview": "A fascinating topic.",
+            "reading": "Toni Morrison is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Toni Morrison",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Toni Morrison.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Toni Morrison?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Toni Morrison is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lifeskills",
+    "title": "Life Skills",
+    "description": "Practical knowledge.",
+    "accentColor": "#10B981",
+    "iconName": "Compass",
+    "pathways": [
+      {
+        "id": "communication",
+        "title": "Communication",
+        "description": "Connecting with others.",
+        "orbs": [
+          {
+            "id": "communication-1",
+            "title": "Active listening",
+            "preview": "A fascinating topic.",
+            "reading": "Active listening is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Active listening",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Active listening.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Active listening?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Active listening is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "communication-2",
+            "title": "Nonverbal communication",
+            "preview": "A fascinating topic.",
+            "reading": "Nonverbal communication is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Nonverbal communication",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Nonverbal communication.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Nonverbal communication?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Nonverbal communication is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "communication-3",
+            "title": "Public speaking",
+            "preview": "A fascinating topic.",
+            "reading": "Public speaking is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Public speaking",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Public speaking.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Public speaking?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Public speaking is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "communication-4",
+            "title": "Negotiation",
+            "preview": "A fascinating topic.",
+            "reading": "Negotiation is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Negotiation",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Negotiation.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Negotiation?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Negotiation is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "communication-5",
+            "title": "Conflict resolution",
+            "preview": "A fascinating topic.",
+            "reading": "Conflict resolution is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Conflict resolution",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Conflict resolution.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Conflict resolution?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Conflict resolution is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "productivity",
+        "title": "Productivity",
+        "description": "Getting things done.",
+        "orbs": [
+          {
+            "id": "productivity-1",
+            "title": "Time management",
+            "preview": "A fascinating topic.",
+            "reading": "Time management is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Time management",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Time management.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Time management?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Time management is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "productivity-2",
+            "title": "Pomodoro Technique",
+            "preview": "A fascinating topic.",
+            "reading": "Pomodoro Technique is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Pomodoro Technique",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Pomodoro Technique.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Pomodoro Technique?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Pomodoro Technique is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "productivity-3",
+            "title": "Procrastination",
+            "preview": "A fascinating topic.",
+            "reading": "Procrastination is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Procrastination",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Procrastination.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Procrastination?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Procrastination is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "productivity-4",
+            "title": "Goal setting",
+            "preview": "A fascinating topic.",
+            "reading": "Goal setting is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Goal setting",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Goal setting.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Goal setting?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Goal setting is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "productivity-5",
+            "title": "Flow (psychology)",
+            "preview": "A fascinating topic.",
+            "reading": "Flow (psychology) is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Flow (psychology)",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Flow (psychology).",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Flow (psychology)?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Flow (psychology) is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "wellness",
+        "title": "Health & Wellness",
+        "description": "Taking care of yourself.",
+        "orbs": [
+          {
+            "id": "wellness-1",
+            "title": "Sleep",
+            "preview": "A fascinating topic.",
+            "reading": "Sleep is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Sleep",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Sleep.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Sleep?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Sleep is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "wellness-2",
+            "title": "Nutrition",
+            "preview": "A fascinating topic.",
+            "reading": "Nutrition is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Nutrition",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Nutrition.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Nutrition?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Nutrition is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "wellness-3",
+            "title": "Physical exercise",
+            "preview": "A fascinating topic.",
+            "reading": "Physical exercise is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Physical exercise",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Physical exercise.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Physical exercise?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Physical exercise is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "wellness-4",
+            "title": "Meditation",
+            "preview": "A fascinating topic.",
+            "reading": "Meditation is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Meditation",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Meditation.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Meditation?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Meditation is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "wellness-5",
+            "title": "Stress management",
+            "preview": "A fascinating topic.",
+            "reading": "Stress management is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Stress management",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Stress management.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Stress management?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Stress management is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "finance",
+    "title": "Finance",
+    "description": "Money and markets.",
+    "accentColor": "#F59E0B",
+    "iconName": "TrendingUp",
+    "pathways": [
+      {
+        "id": "investing",
+        "title": "Investing Basics",
+        "description": "Growing your wealth.",
+        "orbs": [
+          {
+            "id": "investing-1",
+            "title": "Stock market",
+            "preview": "A fascinating topic.",
+            "reading": "Stock market is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Stock market",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Stock market.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Stock market?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Stock market is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "investing-2",
+            "title": "Bond (finance)",
+            "preview": "A fascinating topic.",
+            "reading": "Bond (finance) is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Bond (finance)",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Bond (finance).",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Bond (finance)?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Bond (finance) is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "investing-3",
+            "title": "Index fund",
+            "preview": "A fascinating topic.",
+            "reading": "Index fund is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Index fund",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Index fund.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Index fund?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Index fund is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "investing-4",
+            "title": "Dividend",
+            "preview": "A fascinating topic.",
+            "reading": "Dividend is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Dividend",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Dividend.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Dividend?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Dividend is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "investing-5",
+            "title": "Compound interest",
+            "preview": "A fascinating topic.",
+            "reading": "Compound interest is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Compound interest",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Compound interest.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Compound interest?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Compound interest is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "economics",
+        "title": "Macroeconomics",
+        "description": "The big picture.",
+        "orbs": [
+          {
+            "id": "economics-1",
+            "title": "Gross domestic product",
+            "preview": "A fascinating topic.",
+            "reading": "Gross domestic product is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Gross domestic product",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Gross domestic product.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Gross domestic product?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Gross domestic product is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "economics-2",
+            "title": "Inflation",
+            "preview": "A fascinating topic.",
+            "reading": "Inflation is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Inflation",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Inflation.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Inflation?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Inflation is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "economics-3",
+            "title": "Monetary policy",
+            "preview": "A fascinating topic.",
+            "reading": "Monetary policy is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Monetary policy",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Monetary policy.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Monetary policy?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Monetary policy is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "economics-4",
+            "title": "Fiscal policy",
+            "preview": "A fascinating topic.",
+            "reading": "Fiscal policy is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Fiscal policy",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Fiscal policy.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Fiscal policy?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Fiscal policy is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "economics-5",
+            "title": "Supply and demand",
+            "preview": "A fascinating topic.",
+            "reading": "Supply and demand is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Supply and demand",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Supply and demand.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Supply and demand?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Supply and demand is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      },
+      {
+        "id": "personal",
+        "title": "Personal Finance",
+        "description": "Managing your money.",
+        "orbs": [
+          {
+            "id": "personal-1",
+            "title": "Budget",
+            "preview": "A fascinating topic.",
+            "reading": "Budget is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Budget",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Budget.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Budget?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Budget is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 10,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "personal-2",
+            "title": "Credit score",
+            "preview": "A fascinating topic.",
+            "reading": "Credit score is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Credit score",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Credit score.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Credit score?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Credit score is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Beginner",
+            "readingTimeMinutes": 2,
+            "xpReward": 20,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "personal-3",
+            "title": "Mortgage loan",
+            "preview": "A fascinating topic.",
+            "reading": "Mortgage loan is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Mortgage loan",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Mortgage loan.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Mortgage loan?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Mortgage loan is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 30,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "personal-4",
+            "title": "Tax",
+            "preview": "Compulsory contribution to state revenue",
+            "reading": "A tax is a mandatory financial charge or levy imposed on an individual or legal entity by a governmental organization to support government spending and public expenditures collectively or to regulate economic activity through measures designed to mitigate negative externalities.\n\nTax compliance refers to policy actions and individual behavior aimed at ensuring that taxpayers are paying the right amount of tax at the right time and securing the correct tax allowances and tax relief.",
+            "keyTerms": [
+              {
+                "term": "Tax",
+                "definition": "Compulsory contribution to state revenue"
+              }
+            ],
+            "summary": "You learned about the fundamentals of Tax.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Tax?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Tax is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Intermediate",
+            "readingTimeMinutes": 2,
+            "xpReward": 40,
+            "estimatedReviewInterval": 24
+          },
+          {
+            "id": "personal-5",
+            "title": "Retirement",
+            "preview": "A fascinating topic.",
+            "reading": "Retirement is a fundamental concept that continues to be studied.",
+            "keyTerms": [
+              {
+                "term": "Retirement",
+                "definition": "A fascinating topic."
+              }
+            ],
+            "summary": "You learned about the fundamentals of Retirement.",
+            "quiz": [
+              {
+                "question": "Which of the following best relates to Retirement?",
+                "options": [
+                  "It is completely unrelated to the topic.",
+                  "It is a core concept described in the reading.",
+                  "It was invented in the 21st century.",
+                  "It is only applicable in theoretical scenarios."
+                ],
+                "correctIndex": 1,
+                "explanation": "As discussed in the reading, Retirement is fundamental to this field of study."
+              }
+            ],
+            "difficulty": "Advanced",
+            "readingTimeMinutes": 2,
+            "xpReward": 50,
+            "estimatedReviewInterval": 24
+          }
+        ]
+      }
+    ]
+  }
+]

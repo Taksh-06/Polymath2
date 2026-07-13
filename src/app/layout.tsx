@@ -21,7 +21,9 @@ export const metadata: Metadata = {
 };
 
 import { OrbitProvider } from "@/context/OrbitContext";
-import { Navigation } from "@/components/global/Navigation";
+import { AuthProvider } from "@/context/AuthContext";
+import { RouteGuard } from "@/components/global/RouteGuard";
+import { AppLayout } from "@/components/global/AppLayout";
 import { CommandPalette } from "@/components/global/CommandPalette";
 
 export default function RootLayout({
@@ -34,15 +36,16 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${fredoka.variable} antialiased bg-background text-foreground`}
       >
-        <OrbitProvider>
-          <div className="flex h-screen overflow-hidden">
-            <Navigation />
-            <CommandPalette />
-            <main className="flex-1 overflow-y-auto pb-16 md:pb-0 md:ml-64 relative">
-              {children}
-            </main>
-          </div>
-        </OrbitProvider>
+        <AuthProvider>
+          <OrbitProvider>
+            <AppLayout>
+              <CommandPalette />
+              <RouteGuard>
+                {children}
+              </RouteGuard>
+            </AppLayout>
+          </OrbitProvider>
+        </AuthProvider>
       </body>
     </html>
   );

@@ -1,11 +1,14 @@
 "use client";
 
 import { useOrbit } from "@/context/OrbitContext";
+import { useAuth } from "@/context/AuthContext";
 import { User, Settings, Flame, Star, Award, Moon, Sun, Monitor, Coffee, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function ProfilePage() {
   const { state, updateSettings } = useOrbit();
+  const { isAuthenticated, logout } = useAuth();
 
   const themes = [
     { id: "light", icon: Sun, label: "Light" },
@@ -17,13 +20,31 @@ export default function ProfilePage() {
 
   return (
     <div className="min-h-screen p-6 md:p-12 max-w-4xl mx-auto space-y-12 pt-24 md:pt-12">
-      <div className="flex items-center gap-6">
-        <div className="w-24 h-24 rounded-full bg-primary flex items-center justify-center text-white text-4xl shadow-lg">
-          <User className="w-12 h-12" />
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+        <div className="flex items-center gap-6">
+          <div className="w-24 h-24 rounded-full bg-primary flex items-center justify-center text-white text-4xl shadow-lg shrink-0">
+            <User className="w-12 h-12" />
+          </div>
+          <div className="text-center md:text-left flex flex-col justify-center">
+            <h1 className="text-4xl font-bold font-heading text-foreground">Explorer</h1>
+            <p className="text-muted-foreground text-lg">Level {state.user.level} Astronaut</p>
+          </div>
         </div>
-        <div>
-          <h1 className="text-4xl font-bold">Explorer</h1>
-          <p className="text-muted-foreground text-lg">Level {state.user.level} Astronaut</p>
+
+        <div className="flex items-center">
+          {isAuthenticated ? (
+            <Button onClick={logout} variant="outline" className="rounded-full px-6 text-destructive border-destructive/20 hover:bg-destructive/10 hover:text-destructive shadow-sm">
+              <User className="w-4 h-4 mr-2" />
+              Log Out
+            </Button>
+          ) : (
+            <Link href="/login">
+              <Button className="rounded-full px-6 bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25">
+                <User className="w-4 h-4 mr-2" />
+                Log In
+              </Button>
+            </Link>
+          )}
         </div>
       </div>
 

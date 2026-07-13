@@ -16,7 +16,7 @@ const fredoka = Fredoka({
 });
 
 export const metadata: Metadata = {
-  title: "Orbit | Five minutes a day. Knowledge that sticks.",
+  title: "PolyMath | Knowledge that sticks.",
   description: "A modern gamified microlearning platform that helps you learn science, history, psychology, and more in small daily lessons.",
 };
 

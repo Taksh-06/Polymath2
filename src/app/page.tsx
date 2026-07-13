@@ -2,12 +2,32 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, Star, Brain, Compass, Sparkles, Clock } from "lucide-react";
+import { ArrowRight, Star, Brain, Compass, Sparkles, Clock, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useAuth } from "@/context/AuthContext";
 
 export default function Home() {
+  const { isAuthenticated, logout } = useAuth();
+
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen relative">
+      {/* Top Right Auth Button */}
+      <div className="absolute top-6 right-6 md:right-12 z-50">
+        {isAuthenticated ? (
+          <Button onClick={logout} variant="outline" className="rounded-full px-6 text-destructive border-destructive/20 hover:bg-destructive/10 hover:text-destructive">
+            <User className="w-4 h-4 mr-2" />
+            Log Out
+          </Button>
+        ) : (
+          <Link href="/login">
+            <Button variant="default" className="rounded-full px-6 shadow-md shadow-primary/20">
+              <User className="w-4 h-4 mr-2" />
+              Log In
+            </Button>
+          </Link>
+        )}
+      </div>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-24 pb-32 px-6 md:px-12 flex flex-col items-center justify-center text-center">
         {/* Animated Background Orbit */}

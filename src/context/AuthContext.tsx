@@ -2,9 +2,12 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { createClient } from "@/utils/supabase/client";
+import type { User } from "@supabase/supabase-js";
 
 interface AuthContextType {
   isAuthenticated: boolean;
+  user: User | null;
   login: () => void;
   logout: () => void;
   isLoaded: boolean;
@@ -14,29 +17,52 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState<User | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
+  const supabase = createClient();
+  const router = useRouter();
 
   useEffect(() => {
-    // Check localStorage on mount
-    const authStatus = localStorage.getItem("isAuthenticated");
-    if (authStatus === "true") {
-      setIsAuthenticated(true);
-    }
-    setIsLoaded(true);
-  }, []);
+    const checkUser = async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (user) {
+        setIsAuthenticated(true);
+        setUser(user);
+      }
+      setIsLoaded(true);
+    };
+    checkUser();
+
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        if (session?.user) {
+          setIsAuthenticated(true);
+          setUser(session.user);
+        } else {
+          setIsAuthenticated(false);
+          setUser(null);
+        }
+      }
+    );
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, [supabase.auth]);
 
   const login = () => {
-    localStorage.setItem("isAuthenticated", "true");
-    setIsAuthenticated(true);
+    // Handled in login page via signInWithOAuth
   };
 
-  const logout = () => {
-    localStorage.removeItem("isAuthenticated");
+  const logout = async () => {
+    await supabase.auth.signOut();
     setIsAuthenticated(false);
+    setUser(null);
+    router.push("/login");
   };
 
   return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout, isLoaded }}>
+    <AuthContext.Provider value={{ isAuthenticated, user, login, logout, isLoaded }}>
       {children}
     </AuthContext.Provider>
   );

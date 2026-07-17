@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState, useRef } from "react";
 import { useAuth } from "./AuthContext";
 import { createClient } from "@/utils/supabase/client";
 
@@ -79,6 +79,8 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
   const [supabaseSynced, setSupabaseSynced] = useState(false);
   const supabase = createClient();
 
+  const prevUserIdRef = useRef(user?.id);
+
   // Load state from localStorage on mount
   useEffect(() => {
     const stored = localStorage.getItem("orbit_state");
@@ -91,6 +93,17 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
     }
     setIsLoaded(true);
   }, []);
+
+  // Handle Logout Reset
+  useEffect(() => {
+    if (prevUserIdRef.current && !user?.id) {
+      // User just logged out
+      setState(defaultState);
+      setSupabaseSynced(false);
+      localStorage.removeItem("orbit_state");
+    }
+    prevUserIdRef.current = user?.id;
+  }, [user?.id]);
 
   // Sync from Supabase on Login
   useEffect(() => {

@@ -10,7 +10,7 @@ import Link from "next/link";
 import confetti from "canvas-confetti";
 import { useSearchParams } from "next/navigation";
 
-export function CompletionClient({ orb }: { orb: Orb }) {
+export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: string }) {
   const { updateProgress, updateUser, updateRetention, state } = useOrbit();
   const searchParams = useSearchParams();
   const [hasUpdated, setHasUpdated] = useState(false);
@@ -96,9 +96,9 @@ export function CompletionClient({ orb }: { orb: Orb }) {
         </div>
 
         <div className="pt-4 space-y-3">
-          <Link href="/explore">
+          <Link href={nextOrbId ? `/orb/${nextOrbId}/read` : "/explore"}>
             <Button size="lg" className="w-full h-14 rounded-full text-lg shadow-lg">
-              Continue Learning
+              {nextOrbId ? "Next Level" : "Explore More"}
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </Link>

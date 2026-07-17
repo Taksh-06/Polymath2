@@ -10,7 +10,7 @@ import { createClient } from "@/utils/supabase/client";
 
 export default function ProfilePage() {
   const { state, updateSettings } = useOrbit();
-  const { isAuthenticated, logout, user } = useAuth();
+  const { isAuthenticated, logout, user, isLoaded } = useAuth();
   const [profile, setProfile] = useState<{ name: string; username: string; avatar_url: string } | null>(null);
 
   useEffect(() => {

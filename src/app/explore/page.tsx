@@ -24,9 +24,8 @@ export default function ExplorePage() {
     category.pathways.forEach(p => {
       p.orbs.forEach(o => {
         totalOrbs++;
-        if (state.progress[o.id]?.status === "mastered" || state.progress[o.id]?.status === "unlocked") {
-          // If we consider mastered as 100%. Actually we'll just check if it's in progress/completed.
-          if (state.progress[o.id]?.status === "mastered") completedOrbs++;
+        if (state.progress[o.id]) {
+          completedOrbs++;
         }
       });
     });

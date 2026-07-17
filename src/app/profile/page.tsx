@@ -60,8 +60,10 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="flex items-center">
-          {isAuthenticated ? (
+        <div className="flex items-center min-h-[40px]">
+          {!isLoaded ? (
+            <div className="w-24 h-10 rounded-full bg-muted animate-pulse" />
+          ) : isAuthenticated ? (
             <Button onClick={logout} variant="outline" className="rounded-full px-6 text-destructive border-destructive/20 hover:bg-destructive/10 hover:text-destructive shadow-sm">
               <User className="w-4 h-4 mr-2" />
               Log Out

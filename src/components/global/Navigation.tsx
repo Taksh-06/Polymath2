@@ -97,7 +97,9 @@ export function Navigation({ isCollapsed = false, setIsCollapsed = () => {} }: N
             </div>
           )}
           <div className="mt-4">
-            {isAuthenticated ? (
+            {!useAuth().isLoaded ? (
+              <div className={cn("w-full h-9 rounded-xl bg-muted animate-pulse", isCollapsed ? "px-0" : "px-4")} />
+            ) : isAuthenticated ? (
               <button
                 onClick={logout}
                 className={cn("w-full py-2 rounded-xl text-sm font-medium text-destructive hover:bg-destructive/10 transition-colors flex justify-center items-center", isCollapsed ? "px-0" : "px-4")}

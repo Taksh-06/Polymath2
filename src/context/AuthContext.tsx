@@ -23,18 +23,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const router = useRouter();
 
   useEffect(() => {
-    const checkUser = async () => {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (user) {
+    const initializeAuth = async () => {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.user) {
         setIsAuthenticated(true);
-        setUser(user);
+        setUser(session.user);
       }
       setIsLoaded(true);
     };
-    checkUser();
+    initializeAuth();
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
-      (event, session) => {
+      (_event, session) => {
         if (session?.user) {
           setIsAuthenticated(true);
           setUser(session.user);

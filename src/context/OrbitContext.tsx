@@ -1,6 +1,8 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState } from "react";
+import { useAuth } from "./AuthContext";
+import { createClient } from "@/utils/supabase/client";
 
 export type OrbStatus = "locked" | "unlocked" | "in-progress" | "mastered";
 
@@ -73,6 +75,9 @@ const OrbitContext = createContext<OrbitContextType | undefined>(undefined);
 export function OrbitProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState<OrbitState>(defaultState);
   const [isLoaded, setIsLoaded] = useState(false);
+  const { user, isAuthenticated, isLoaded: authLoaded } = useAuth();
+  const [supabaseSynced, setSupabaseSynced] = useState(false);
+  const supabase = createClient();
 
   // Load state from localStorage on mount
   useEffect(() => {
@@ -87,12 +92,46 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
     setIsLoaded(true);
   }, []);
 
-  // Save state to localStorage whenever it changes
+  // Sync from Supabase on Login
+  useEffect(() => {
+    const fetchRemoteState = async () => {
+      if (user?.id && authLoaded && !supabaseSynced) {
+        const { data, error } = await supabase
+          .from('profiles')
+          .select('app_state')
+          .eq('id', user.id)
+          .single();
+        
+        if (!error && data?.app_state && Object.keys(data.app_state).length > 0) {
+          // Overwrite local state with cloud state
+          setState(data.app_state as OrbitState);
+          localStorage.setItem("orbit_state", JSON.stringify(data.app_state));
+        }
+        setSupabaseSynced(true);
+      }
+    };
+    fetchRemoteState();
+  }, [user?.id, authLoaded, supabaseSynced]);
+
+  // Save state to localStorage and Supabase whenever it changes
   useEffect(() => {
     if (isLoaded) {
       localStorage.setItem("orbit_state", JSON.stringify(state));
+      
+      // Save to Supabase if authenticated and initial sync is complete
+      if (isAuthenticated && user?.id && supabaseSynced) {
+        const saveToSupabase = async () => {
+          await supabase
+            .from('profiles')
+            .update({ app_state: state })
+            .eq('id', user.id);
+        };
+        // Quick debounce approach: wait a tiny bit to avoid rapid writes
+        const timeout = setTimeout(saveToSupabase, 1000);
+        return () => clearTimeout(timeout);
+      }
     }
-  }, [state, isLoaded]);
+  }, [state, isLoaded, isAuthenticated, user?.id, supabaseSynced]);
 
   // Apply theme
   useEffect(() => {

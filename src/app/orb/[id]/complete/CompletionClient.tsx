@@ -19,6 +19,16 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
   const total = parseInt(searchParams.get("total") || "1", 10);
   const masteryStatus = score === total ? "mastered" : "unlocked";
 
+  const [rewards] = useState(() => {
+    const alreadyMastered = state.progress[orb.id]?.status === 'mastered';
+    return {
+      xp: alreadyMastered ? 0 : orb.xpReward,
+      coins: alreadyMastered ? 0 : (score === total ? 5 : 1),
+      streak: alreadyMastered ? 0 : 1,
+      alreadyMastered
+    };
+  });
+
   useEffect(() => {
     // Fire Confetti
     const duration = 3 * 1000;
@@ -43,12 +53,10 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
     if (!hasUpdated) {
       updateProgress(orb.id, masteryStatus, score);
       
-      const coinsEarned = score === total ? 5 : 1;
-      
       updateUser({
-        xp: state.user.xp + orb.xpReward,
-        coins: state.user.coins + coinsEarned,
-        streak: state.user.streak + 1, // simplified streak logic
+        xp: state.user.xp + rewards.xp,
+        coins: state.user.coins + rewards.coins,
+        streak: state.user.streak + rewards.streak,
         lastActiveDate: new Date().toISOString()
       });
 
@@ -63,7 +71,7 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
     }
 
     return () => clearInterval(interval);
-  }, [orb, score, total, masteryStatus, hasUpdated, updateProgress, updateUser, updateRetention, state]);
+  }, [orb, score, total, masteryStatus, hasUpdated, updateProgress, updateUser, updateRetention, state, rewards]);
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-background">
@@ -79,18 +87,22 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
 
         <div>
           <h1 className="text-4xl font-bold font-heading mb-2 text-warning">Lesson Complete!</h1>
-          <p className="text-muted-foreground">You mastered the fundamentals of {orb.title}.</p>
+          <p className="text-muted-foreground">
+            {rewards.alreadyMastered 
+              ? `You reviewed ${orb.title}. Great job keeping your knowledge fresh!`
+              : `You mastered the fundamentals of ${orb.title}.`}
+          </p>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-muted rounded-3xl p-6 flex flex-col items-center gap-2">
             <Star className="w-8 h-8 text-primary" fill="currentColor" />
-            <span className="text-2xl font-bold">+{orb.xpReward}</span>
+            <span className="text-2xl font-bold">+{rewards.xp}</span>
             <span className="text-xs text-muted-foreground uppercase font-bold tracking-wider">Total XP</span>
           </div>
           <div className="bg-muted rounded-3xl p-6 flex flex-col items-center gap-2">
             <Flame className="w-8 h-8 text-danger" fill="currentColor" />
-            <span className="text-2xl font-bold">+1</span>
+            <span className="text-2xl font-bold">+{rewards.streak}</span>
             <span className="text-xs text-muted-foreground uppercase font-bold tracking-wider">Day Streak</span>
           </div>
         </div>

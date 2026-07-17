@@ -18,11 +18,11 @@ export function CategoryTimeline({ category }: CategoryTimelineProps) {
     const s = state.progress[orbId]?.status;
     if (s) return s;
 
-    // For simplicity, the first orb of the first pathway is always unlocked.
-    // Others are unlocked if the previous orb is mastered.
+    // The first orb of the first pathway is always unlocked.
     if (isFirstInPathway && index === 0) return "unlocked";
-    
-    if (previousOrbId && state.progress[previousOrbId]?.status === "mastered") {
+
+    // Others are unlocked if the previous orb is completed (has any progress entry)
+    if (previousOrbId && state.progress[previousOrbId]) {
       return "unlocked";
     }
 

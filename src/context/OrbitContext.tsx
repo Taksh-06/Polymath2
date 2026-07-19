@@ -136,10 +136,13 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
       // Save to Supabase if authenticated and initial sync is complete
       if (isAuthenticated && user?.id && supabaseSynced) {
         const saveToSupabase = async () => {
-          await supabase
+          const { error } = await supabase
             .from('profiles')
-            .update({ app_state: state })
-            .eq('id', user.id);
+            .upsert({ id: user.id, app_state: state });
+            
+          if (error) {
+            console.error("Error saving state to Supabase:", error);
+          }
         };
         // Quick debounce approach: wait a tiny bit to avoid rapid writes
         const timeout = setTimeout(saveToSupabase, 1000);

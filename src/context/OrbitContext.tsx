@@ -138,7 +138,8 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
         const saveToSupabase = async () => {
           const { error } = await supabase
             .from('profiles')
-            .upsert({ id: user.id, app_state: state });
+            .update({ app_state: state })
+            .eq('id', user.id);
             
           if (error) {
             console.error("Error saving state to Supabase:", error);

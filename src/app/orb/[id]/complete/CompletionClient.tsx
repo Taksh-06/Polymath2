@@ -8,10 +8,12 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Flame, Award } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import confetti from "canvas-confetti";
+import { useAuth } from "@/context/AuthContext";
 import { ReviewModal } from "@/components/global/ReviewModal";
 
 export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: string }) {
   const { updateProgress, updateUser, updateRetention, state } = useOrbit();
+  const { user } = useAuth();
   const searchParams = useSearchParams();
   const router = useRouter();
   const [hasUpdated, setHasUpdated] = useState(false);
@@ -139,6 +141,7 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
 
       {showReviewModal && (
         <ReviewModal 
+          userId={user?.id}
           onSuccess={handleReviewSuccess} 
         />
       )}

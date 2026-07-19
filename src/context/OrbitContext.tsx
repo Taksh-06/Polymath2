@@ -77,7 +77,7 @@ export function OrbitProvider({ children }: { children: React.ReactNode }) {
   const [isLoaded, setIsLoaded] = useState(false);
   const { user, isAuthenticated, isLoaded: authLoaded } = useAuth();
   const [supabaseSynced, setSupabaseSynced] = useState(false);
-  const supabase = createClient();
+  const [supabase] = useState(() => createClient());
 
   const prevUserIdRef = useRef(user?.id);
 

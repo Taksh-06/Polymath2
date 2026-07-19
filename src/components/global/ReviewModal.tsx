@@ -92,6 +92,34 @@ export function ReviewModal({ userId, onSuccess }: ReviewModalProps) {
     setLoading(true);
     setError(null);
 
+    // Validation: Ensure all fields are filled
+    const isMissingRating = [
+      formData.navigation_rating,
+      formData.visual_rating,
+      formData.lessons_rating,
+      formData.enjoyment_rating,
+      formData.recommend_rating,
+    ].some((rating) => rating === 0);
+
+    const isMissingText = [
+      formData.email,
+      formData.age_group,
+      formData.usage_frequency,
+      formData.use_again,
+      formData.liked_most,
+      formData.improvement_suggestions,
+      formData.bugs_encountered,
+      formData.additional_suggestions,
+      formData.public_interest,
+      formData.pay_for_premium,
+    ].some((val) => val.trim() === "");
+
+    if (isMissingRating || isMissingText) {
+      setError("Please fill out all fields before submitting.");
+      setLoading(false);
+      return;
+    }
+
     try {
       const supabase = createClient();
       const payload = {

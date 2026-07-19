@@ -12,6 +12,7 @@ export interface UserState {
   coins: number;
   streak: number;
   lastActiveDate: string | null;
+  hasReviewed?: boolean;
 }
 
 export interface ProgressState {
@@ -50,6 +51,7 @@ const defaultState: OrbitState = {
     coins: 0,
     streak: 0,
     lastActiveDate: null,
+    hasReviewed: false,
   },
   progress: {},
   retention: {},

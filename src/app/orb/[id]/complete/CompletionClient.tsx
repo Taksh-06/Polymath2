@@ -6,14 +6,17 @@ import { useOrbit } from "@/context/OrbitContext";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Flame, Award } from "lucide-react";
-import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import confetti from "canvas-confetti";
-import { useSearchParams } from "next/navigation";
+import { ReviewModal } from "@/components/global/ReviewModal";
 
 export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: string }) {
   const { updateProgress, updateUser, updateRetention, state } = useOrbit();
   const searchParams = useSearchParams();
+  const router = useRouter();
   const [hasUpdated, setHasUpdated] = useState(false);
+  const [showReviewModal, setShowReviewModal] = useState(false);
+  const [pendingNavigation, setPendingNavigation] = useState<string | null>(null);
 
   const score = parseInt(searchParams.get("score") || "0", 10);
   const total = parseInt(searchParams.get("total") || "1", 10);
@@ -46,7 +49,7 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
 
       const particleCount = 50 * (timeLeft / duration);
       confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
-      confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
+      confetti({ ...defaults, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
     }, 250);
 
     // Update Progress State
@@ -72,6 +75,25 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
 
     return () => clearInterval(interval);
   }, [orb, score, total, masteryStatus, hasUpdated, updateProgress, updateUser, updateRetention, state, rewards]);
+
+  const handleNextAction = () => {
+    const destination = nextOrbId ? `/orb/${nextOrbId}/read` : "/explore";
+    
+    if (state.user.hasReviewed) {
+      router.push(destination);
+    } else {
+      setPendingNavigation(destination);
+      setShowReviewModal(true);
+    }
+  };
+
+  const handleReviewSuccess = () => {
+    updateUser({ hasReviewed: true });
+    setShowReviewModal(false);
+    if (pendingNavigation) {
+      router.push(pendingNavigation);
+    }
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-background">
@@ -108,14 +130,18 @@ export function CompletionClient({ orb, nextOrbId }: { orb: Orb, nextOrbId?: str
         </div>
 
         <div className="pt-4 space-y-3">
-          <Link href={nextOrbId ? `/orb/${nextOrbId}/read` : "/explore"}>
-            <Button size="lg" className="w-full h-14 rounded-full text-lg shadow-lg">
-              {nextOrbId ? "Next Level" : "Explore More"}
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-          </Link>
+          <Button size="lg" onClick={handleNextAction} className="w-full h-14 rounded-full text-lg shadow-lg">
+            {nextOrbId ? "Next Level" : "Explore More"}
+            <ArrowRight className="w-5 h-5 ml-2" />
+          </Button>
         </div>
       </motion.div>
+
+      {showReviewModal && (
+        <ReviewModal 
+          onSuccess={handleReviewSuccess} 
+        />
+      )}
     </div>
   );
 }
